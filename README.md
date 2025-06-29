@@ -2,7 +2,7 @@
 
 This is a simulated network traffic analysis case study involving DNS resolution failures and ICMP errors. The goal was to investigate a connectivity issue where users were unable to access "www.yummyrecipesforme.com", receiving a "destination port unreachable" error.
 
-I used *tcpdump* to capture packets created when attempting to access the website. DNS queries were sent over UDP to the DNS server, but the responses were ICMP error messages stating that port 53 was unreachable, which means the DNS server wasn't available. m
+I used *tcpdump* to capture packets created when attempting to access the website. DNS queries were sent over UDP to the DNS server, but the responses were ICMP error messages stating that port 53 was unreachable, which means the DNS server wasn't available. 
 
 ## Tools Used
 
